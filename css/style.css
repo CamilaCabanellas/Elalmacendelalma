@@ -1,0 +1,410 @@
+
+@font-face {
+    font-family: 'WindstoneSerif';
+    src: url(../fonts/windstone_serif/WindstoneSerif.otf);
+}
+
+*{
+    box-sizing:border-box
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EDEBF0;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.grid{
+
+}
+
+/*Header*/
+.logo{ 
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+.imagenlugar {
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    
+    
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.navbar ul li{
+    padding: 0px 40px 0px 40px;
+    display: inline-block;
+    margin-top: 100px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    
+    
+
+}
+.nav-informacion{
+    border-style: none !important;
+}
+
+#checkbox-menu, label{
+    display: none;
+}
+
+
+/*Fin header*/
+
+/*Titulos index General*/
+h1{
+    font-family: 'WindstoneSerif';
+    font-size: 72px;
+    margin-left: 70px;
+    
+}
+h3{
+    font-family: 'WindstoneSerif';
+    font-size: 24px;
+} 
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*INDEX*/
+.imagenlugar {
+    width: 400px; 
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+p#lugar{
+    margin-top: 120px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contenedor-sobrelugar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    ;
+}
+
+.servicio-tarot{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+}
+
+
+
+.servicio-numerologia{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+}
+.servicio-pendulo{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+}
+
+
+
+p#sesion{
+    margin-top: 120px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.sesiones{
+    background-image: url('../imagenes/background.png');
+    width: 100%;
+    height: 720px;
+    background-position: center;
+    }
+
+#titulo-sesiones{
+        text-align: center;
+        padding: 100px 0 0 0
+        
+
+    }
+
+    
+
+.titulo-productos{
+    font-family:'WindstoneSerif';
+    font-size: 42px; 
+    text-align: center;
+    margin-top: 120px;
+}
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+
+div.btn-productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.informacion {
+    background-color:  #454756;
+    padding: 100px 0 100px 0;
+    margin-bottom: 200px;
+}
+
+section.informacion{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    ;
+}
+
+.telefono{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.telefono h2{
+    font-size: 24px ;
+    font-weight: 300;
+}
+
+.telefono h4{
+    font-size: 19px;
+    font-weight: lighter;
+}
+.instagram{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    }
+
+.instagram h2{
+   
+        font-size: 24px ;
+        font-weight: 300;
+
+}
+.instagram h4{
+   
+    font-size: 19px;
+    font-weight: lighter;
+
+}
+
+.mail{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.mail h2{
+    font-size: 24px ;
+    font-weight: 300;
+
+}
+
+.mail h4{
+    font-size: 19px;
+    font-weight: lighter;
+
+}
+
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background-color: #454756;
+    color: antiquewhite;
+
+
+    
+}
+button:hover{
+    background-color: #2B2935;
+}
+
+/*Fin index*/
+
+/*sesiones*/
+
+
+
+/*Productos*/
+.box{
+    display: inline-block;
+    margin: 60px 60px;
+}
+.precio{
+    font-family: 'Inter';
+
+}
+.producto-venta{
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.boton-productos{
+    margin-left: 45%;
+    margin-bottom: 70px;
+}
+
+/*Fin productos*/
+
+/*footer*/
+
+.pie-pagina{
+    width: 100%;
+}
+
+.pie-pagina .seccion-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .seccion-1 .logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .seccion-1 .logo img{
+    width: 250px;
+
+}
+
+.pie-pagina .seccion-1 h6{
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 19px;
+}
+
+.pie-pagina .seccion-1 ul{
+    padding-left: 0px;
+}
+
+.pie-pagina .seccion-1 ul li {
+    list-style: none;
+}
+
+.red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #EDEBF0;
+    background-color: #2B2935;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+
+
+}
+.red-social a:hover{
+    color: #454756;
+
+}
+
+.seccion-2{
+padding: 15px 10px;
+text-align: center;
+background-color: #2B2935;
+color: #EDEBF0;
+font-size: smaller;
+}
+
+
+
+/*footer*/
+
+
+
+/*media queries*/
+
+
+    @media screen and  (max-width: 800px){
+
+    .pie-pagina .seccion-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    
+}
+
+
+
+
+
+
+
+
