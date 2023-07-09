@@ -4,71 +4,66 @@
     src: url(../fonts/windstone_serif/WindstoneSerif.otf);
 }
 
+
+
 *{
-    box-sizing:border-box
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     
 }
-
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Quicksand', sans-serif;
     background-color: #EDEBF0;
-    margin: 0;
-    display: grid;
-    justify-content: center;
-}
+    margin-top: 100px;
 
-.grid{
+
 
 }
+
+
 
 /*Header*/
-.logo{ 
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    padding-top: 40px;
-    
-}
 
-.imagenlugar {
-    margin-top: 120px;
-    margin-left: 70px;
-}
+
 
 a {
     text-decoration: none;
-    color: rgb(26, 25, 25);
-    
-    
+    color: #454756;
+
+
 }
-nav.navbar {
-    display: flex;
-    justify-content: space-evenly;
-   
-    
+
+
+.navbar{
+    background-color: #EDEBF0;
+
+
+
 }
 
 .navbar ul li{
     padding: 0px 40px 0px 40px;
-    display: inline-block;
-    margin-top: 100px;
     border-style: solid;
     border-top: none;
     border-left: none;
     border-bottom: none;
-    
-    
+    color: #9E8BB9;
+
+
 
 }
+
+
 .nav-informacion{
     border-style: none !important;
 }
+.foto-header{
+    width: 100vw;
 
-#checkbox-menu, label{
-    display: none;
 }
+
 
 
 /*Fin header*/
@@ -76,14 +71,14 @@ nav.navbar {
 /*Titulos index General*/
 h1{
     font-family: 'WindstoneSerif';
-    font-size: 72px;
-    margin-left: 70px;
-    
+    font-size: 4.5rem;
+
+
 }
 h3{
     font-family: 'WindstoneSerif';
-    font-size: 24px;
-} 
+    font-size: 1.5rem;
+}
 
 h4{
     font-family: 'Inter', sans-serif;
@@ -92,93 +87,122 @@ h4{
 
 
 /*INDEX*/
-.imagenlugar {
-    width: 400px; 
-    height: 500px;
-    margin-left: 50px;
-    margin-right: 50px;
+
+
+ .contenedor-sobrelugar{
+    display: grid;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
+    justify-items: center;
+
+
+
 }
 
-p#lugar{
-    margin-top: 120px;
-    margin-right: 60px;
-    font-size: 20px;
+
+.contenedor-sobrelugar h1{
+    margin-left: 0;
+}
+
+p#lugar1{
+    font-size: 1.25rem;
     font-weight: lighter;
-}
-.contenedor-sobrelugar{
-    display: flex;
-    flex-direction: row;
+    text-align: left;
+
 }
 
 
 
-.servicios{
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-    ;
-}
 
-.servicio-tarot{
+.servicio-redes{
     width: 290px;
-    justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 120px;
+    justify-items: center;
+    align-items: center;
+
 }
 
 
 
 .servicio-numerologia{
     width: 290px;
-    justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 120px;
+
 }
 .servicio-pendulo{
     width: 290px;
-    justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 120px;
+
+
 }
 
+.servicio-armonizacion{
+    width: 290px;
+    text-align: center;
 
 
-p#sesion{
-    margin-top: 120px;
-    margin-right: 60px;
+}
+
+h3, .redes, .pendulo, .numerologia, .armonizacion {
+    margin-top: 20px;
+}
+
+.row {
+    justify-content: space-between;
+
+}
+
+.btn-numerologia{
+ margin-top: 76px;
+}
+.btn-pendulo{
+    margin-top: 100px;
+   }
+
+
+
+
+
+div.contenido-sesiones{
+    padding-top: 250px;    
     font-size: 20px;
     font-weight: lighter;
+    color: #EDEBF0;
     
+
 }
 .sesiones{
-    background-image: url('../imagenes/background.png');
-    width: 100%;
-    height: 720px;
-    background-position: center;
+    margin-top: 200px;
+    width: 100vw;
+    
     }
+
+.btn-reserva{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.btn-boton-reserva{
+    color: antiquewhite;
+}
 
 #titulo-sesiones{
         text-align: center;
-        padding: 100px 0 0 0
-        
+        color: #EDEBF0;
+
 
     }
 
-    
+
 
 .titulo-productos{
     font-family:'WindstoneSerif';
-    font-size: 42px; 
+    font-size: 2.6rem;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 200px;
 }
 .contenedor-productos{
     display: flex;
@@ -195,96 +219,96 @@ div.btn-productos{
     margin-top: 80px;
 }
 
-.informacion {
-    background-color:  #454756;
-    padding: 100px 0 100px 0;
-    margin-bottom: 200px;
+.contactame{
+    color: #EDEBF0;
+    margin-top: 200px;
+    text-align: center;
+    background: rgb(158,139,185);
+    background: radial-gradient(circle, rgba(158,139,185,1) 0%, rgba(69,71,86,1) 100%);
+
 }
 
-section.informacion{
-    margin-top: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-    ;
+
+
+.contenedor-informacion{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
 }
 
 .telefono{
-    width: 290px;
-    justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+
+
 }
 
 .telefono h2{
-    font-size: 24px ;
-    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.5rem ;
+    font-weight: 400;
 }
 
 .telefono h4{
-    font-size: 19px;
+    margin-top: 20px;
+    font-size: 1.1rem;
     font-weight: lighter;
 }
 .instagram{
-    width: 290px;
     justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
+
     }
 
 .instagram h2{
-   
-        font-size: 24px ;
-        font-weight: 300;
+        margin-bottom: 20px;
+        font-size: 1.5rem ;
+        font-weight: 400;
 
 }
 .instagram h4{
-   
-    font-size: 19px;
+    margin-top: 20px;
+    font-size: 1.1rem;
     font-weight: lighter;
 
 }
 
 .mail{
-    width: 290px;
     justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+
+
 }
 
 .mail h2{
-    font-size: 24px ;
-    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.5rem ;
+    font-weight: 400px;
 
 }
 
 .mail h4{
-    font-size: 19px;
+    margin-top: 20px;
+    font-size: 1.1rem;
     font-weight: lighter;
 
 }
 
 
 button{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
     padding: 8px 16px 8px 16px;
     border-radius: 4px;
-    background-color: #454756;
+    background-color: #9E8BB9;
     color: antiquewhite;
 
 
-    
+
 }
 button:hover{
-    background-color: #2B2935;
+    background-color: #454756;
 }
 
 /*Fin index*/
@@ -315,26 +339,25 @@ button:hover{
 
 /*footer*/
 
-.pie-pagina{
-    width: 100%;
+
+ .pie-pagina{
+     width: 100%;
+
+
+}
+div.footer{
+    margin: 0;
+    padding: 0;
+
 }
 
-.pie-pagina .seccion-1{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
+.lugar-footer{
+    font-size: smaller;
 }
 
-.pie-pagina .seccion-1 .logo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
 
 .pie-pagina .seccion-1 .logo img{
     width: 250px;
@@ -342,43 +365,53 @@ button:hover{
 }
 
 .pie-pagina .seccion-1 h6{
+
     font-weight: 700;
-    margin-bottom: 25px;
-    font-size: 19px;
+
+    font-size: smaller;
 }
+
 
 .pie-pagina .seccion-1 ul{
     padding-left: 0px;
+
 }
 
 .pie-pagina .seccion-1 ul li {
     list-style: none;
+    font-size: smaller;
 }
 
-.red-social a{
+.info-productos{
+    font-size: smaller;
+}
+
+.sec-informacion a{
     display: inline-block;
     width: 45px;
     height: 45px;
     line-height: 45px;
     color: #EDEBF0;
-    background-color: #2B2935;
+    background-color: #9E8BB9;
     border-radius: 20px;
     text-align: center;
     margin-right: 10px;
 
 
 }
-.red-social a:hover{
+.sec-informacion a:hover{
     color: #454756;
 
 }
 
 .seccion-2{
+width: 100%;
 padding: 15px 10px;
 text-align: center;
-background-color: #2B2935;
+background-color: #454756;
 color: #EDEBF0;
 font-size: smaller;
+font-size: 0.75rem;
 }
 
 
@@ -386,20 +419,83 @@ font-size: smaller;
 /*footer*/
 
 
+/*Sesiones*/
+
+.sesiones-disponibles{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+
+.proximamente{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+
+.cards-grupo2{
+    margin-bottom: 200px;
+}
+
+
 
 /*media queries*/
 
-
-    @media screen and  (max-width: 800px){
-
-    .pie-pagina .seccion-1{
-        width: 90%;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
+    @media screen and (max-width: 1300px){
+       body{
+        margin-top: 5rem;
+       }
     }
-    
-}
+
+    @media screen and (max-width: 1024px){
+        .servicio-numerologia{
+            margin-bottom: 5rem;
+        }
+
+    }
+
+    @media screen and (max-width: 768px){
+        .btn-numerologia, .btn-pendulo{
+            margin-top: 0;
+        }
+
+        .servicio-redes{
+            margin-bottom: 5rem;
+        }
+
+        .servicio-numerologia{
+            margin-bottom: 5rem;
+        }
+        .servicio-pendulo{
+            margin-bottom: 5rem;
+        }
+        .servicio-armonizacion{
+            margin-bottom: 5rem;
+        }
+
+        div.contenido-sesiones{
+            padding-top: 200px;    
+            font-size: 20px;
+            font-weight: lighter;
+            color: #EDEBF0;
+            
+        
+        }
+
+
+    }
+
+    @media screen and (max-width: 425px){
+        div.contenido-sesiones{
+            padding-top: 50px;    
+            font-size: 20px;
+            font-weight: lighter;
+            color: #EDEBF0;
+            
+        
+        }
+
+    }
+
+
 
 
 

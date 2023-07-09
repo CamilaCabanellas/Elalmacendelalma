@@ -1,0 +1,457 @@
+
+@font-face {
+    font-family: 'WindstoneSerif';
+    src: url(../fonts/windstone_serif/WindstoneSerif.otf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EDEBF0;
+    
+
+
+}
+
+
+
+/*Header*/
+
+
+
+a {
+    text-decoration: none;
+    color: #454756;
+    
+    
+}
+
+
+.navbar{
+    background-color: #EDEBF0;
+    
+   
+    
+} 
+
+.navbar ul li{
+    padding: 0px 40px 0px 40px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    color: #9E8BB9;
+    
+    
+
+}
+
+
+.nav-informacion{
+    border-style: none !important;
+}
+
+
+
+
+/*Fin header*/
+
+/*Titulos index General*/
+h1{
+    font-family: 'WindstoneSerif';
+    font-size: 72px;
+    
+    
+}
+h3{
+    font-family: 'WindstoneSerif';
+    font-size: 24px;
+} 
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*INDEX*/
+
+ 
+.contenedor-sobrelugar{
+    display: grid;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    justify-items: center;
+
+
+}
+    
+.contenedor-sobrelugar h1{
+    margin-left: 0;
+}
+
+p#lugar{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+
+}  
+
+
+.servicio-redes{
+    width: 290px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  
+} 
+
+
+
+.servicio-numerologia{
+    width: 290px;
+    text-align: center;    
+    
+}
+.servicio-pendulo{
+    width: 290px;
+    text-align: center;
+    
+    
+}
+
+.servicio-armonizacion{
+    width: 290px;
+    text-align: center;
+    
+    
+}
+
+h3, .redes, .pendulo, .numerologia, .armonizacion {
+    margin-top: 20px;
+}
+
+.row {
+    justify-content: space-between;
+
+} 
+
+.btn-numerologia{
+ margin-top: 76px;
+}
+.btn-pendulo{
+    margin-top: 100px;
+   }
+
+
+
+
+
+.text-sm-center{
+    margin-top: 120px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #EDEBF0;
+    justify-content: center;
+    
+}
+.sesiones{
+    background-image: url('../imagenes/background.png');
+    margin-top: 200px;
+    width: 100vw;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.btn-reserva{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#titulo-sesiones{
+        text-align: center;
+        color: #EDEBF0;
+        
+
+    }
+
+    
+
+.titulo-productos{
+    font-family:'WindstoneSerif';
+    font-size: 42px; 
+    text-align: center;
+    margin-top: 200px;
+}
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+
+div.btn-productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contactame{
+    margin-top: 200px;
+    text-align: center;
+    background-color: #9E8BB9;
+
+}
+
+.informacion {
+    padding: 100px 0 100px 0;
+    margin-bottom: 200px;
+}
+
+section.informacion{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    ;
+}
+
+.telefono{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.telefono h2{
+    margin-bottom: 20px;
+    font-size: 24px ;
+    font-weight: 400;
+}
+
+.telefono h4{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+.instagram{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    }
+
+.instagram h2{
+        margin-bottom: 20px;
+        font-size: 24px ;
+        font-weight: 400;
+
+}
+.instagram h4{
+    margin-top: 20px;   
+    font-size: 19px;
+    font-weight: lighter;
+
+}
+
+.mail{
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.mail h2{
+    margin-bottom: 20px;
+    font-size: 24px ;
+    font-weight: 400px;
+
+}
+
+.mail h4{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: lighter;
+
+}
+
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background-color: #9E8BB9;
+    color: antiquewhite;
+
+
+    
+}
+button:hover{
+    background-color: #454756;
+}
+
+/*Fin index*/
+
+/*sesiones*/
+
+
+
+/*Productos*/
+.box{
+    display: inline-block;
+    margin: 60px 60px;
+}
+.precio{
+    font-family: 'Inter';
+
+}
+.producto-venta{
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.boton-productos{
+    margin-left: 45%;
+    margin-bottom: 70px;
+}
+
+/*Fin productos*/
+
+/*footer*/
+
+.pie-pagina{
+    width: 100%;
+    
+}
+
+.lugar-footer{
+    font-size: smaller;
+}
+
+.pie-pagina .seccion-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px 0px;
+}
+
+.pie-pagina .seccion-1 .logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .seccion-1 .logo img{
+    width: 250px;
+
+}
+
+.pie-pagina .seccion-1 h6{
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.pie-pagina .seccion-1 ul{
+    padding-left: 0px;
+}
+
+.pie-pagina .seccion-1 ul li {
+    list-style: none;
+}
+
+.red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #EDEBF0;
+    background-color: #9E8BB9;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+
+
+}
+.red-social a:hover{
+    color: #454756;
+
+}
+
+.seccion-2{
+padding: 15px 10px;
+text-align: center;
+background-color: #454756;
+color: #EDEBF0;
+font-size: smaller;
+grid-column: 1/6;
+font-size: 12px;
+}
+
+
+
+/*footer*/
+
+
+
+/*media queries*/
+
+    @media screen and (max-width: 1300px){
+       body{
+        margin-top: 5rem;
+       }  
+    }
+
+    @media screen and (max-width: 768px){
+        .btn-numerologia, .btn-pendulo{
+            margin-top: 0;
+        } 
+
+        .servicio-redes{
+            margin-bottom: 5rem;
+        }
+
+        .servicio-numerologia{
+            margin-bottom: 5rem;
+        }
+        .servicio-pendulo{
+            margin-bottom: 5rem;
+        }
+        .servicio-armonizacion{
+            margin-bottom: 5rem;
+        }
+    }
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
@@ -12,91 +12,149 @@
     <link rel="stylesheet" href="./css/style.css">
         <title>El almacen del Alma</title>
 </head>
-<body>
+<body >
 
-
+<main >
     <header>
-        
-        <img src="./imagenes/logo.svg" alt="logo" class="logo">
-        
-        
-        <nav class="navbar">
-            <input type="checkbox" id="checkbox-menu">
-            <label for="checkbox-menu"><i class='bx bx-menu-alt-left'></i></label>
-            <ul>
-                <li>
-                    <a href="#lugar" >Sobre el Lugar</a>
-                </li>
-                <li>
-                    <a href="tarot.html">Tarot</a>
-                </li>
-                <li>
-                    <a href="numerologia.html">Numerologia</a>
-                </li>
-                <li>
-                    <a href="pendulo.html">Pendulo hebreo</a>
-                </li>
-                <li>
-                    <a href="sesiones.html">Sesiones</a>
-                </li>
-                <li>
+
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#index">
+                <img src="./imagenes/logo.jpg" alt="Logo" class="logo">
                 
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li class="nav-informacion">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse " id="navbarNav">
                 
-                    <a href="#informacion" >Informacion</a>
+              
+              <ul class="navbar-nav">
+                <li  class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="#lugar" >Sobre el Lugar</a>
+                </li>
+                <li  class="nav-item">
+                    <a class="nav-link" href="redes.html">Redes Energéticas</a>
+                </li>
+                <li  class="nav-item">
+                    <a class="nav-link" href="numerologia.html">Numerologia</a>
+                </li>
+                <li  class="nav-item">
+                    <a class="nav-link" href="pendulo.html">Pendulo hebreo</a>
+                </li>
+                <li  class="nav-item">
+                    <a  class="nav-link" href="sesiones.html">Sesiones</a>
+                </li>
+                <li  class="nav-item">
+                
+                    <a class="nav-link" href="armonizacion.html">Armonización</a>
+                </li>
+                <li  class="nav-item .nav-informacion">
+                
+                    <a class="nav-link " href="#informacion" >Informacion</a>
 
                 </li>
             </ul>
+               
+            </div>
 
+            </div>
         </nav>
+        
+        <div class="img-header">
+            <img src="./imagenes/foto-header.png" alt="foto-header" class="img-fluid foto-header" >
+        </div>
+    
     </header>
     
-    <div class="contenedor-sobrelugar">
-        <img src="./imagenes/imagen-sobre-lugar.png" alt="Sobre el lugar" class="imagenlugar">
-        <p id="lugar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam ad beatae, pariatur placeat ea nesciunt, molestias aspernatur maxime eaque repellendus cum. Perspiciatis consequatur maiores debitis, dolor iure enim optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eaque odit assumenda repudiandae quia magni dolor sapiente culpa eveniet ut alias, vero, autem nesciunt, ipsam enim facilis maxime perferendis! A? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat alias ab laudantium fugit impedit illo accusantium autem nobis non tempora veritatis optio, eos fuga? Iusto obcaecati et quasi repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam ad beatae, pariatur placeat ea nesciunt, molestias aspernatur maxime eaque repellendus cum. <br>Perspiciatis consequatur maiores debitis, dolor iure enim optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eaque odit assumenda repudiandae quia magni dolor sapiente culpa eveniet ut alias, vero, autem nesciunt, ipsam enim facilis maxime perferendis! A? !Repellat nam ad beatae, pariatur placeat ea nesciunt, molestias aspernatur maxime eaque repellendus cum. Perspiciatis consequatur maiores debitis, dolor iure enim optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eaque odit assumenda repudiandae quia magni dolor sapiente culpa eveniet ut alias, vero, autem nesciunt, ipsam enim facilis maxime perferendis! <br>A? !Repellat nam ad beatae, pariatur placeat ea nesciunt, molestias aspernatur maxime eaque repellendus cum. Perspiciatis consequatur maiores debitis, dolor iure enim optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Voluptate eaque odit assumenda repudiandae quia magni dolor sapiente culpa eveniet ut alias, vero, autem nesciunt, ipsam enim facilis maxime perferendis! A? !</p>
+      
+    <div class="container contenedor-sobrelugar ">
+        <div class="row">
+            <div class="col-12 col-md col-sm d-flex justify-content-center">
+                <img src="./imagenes/imagen-sobre-lugar-sin-fondo.png" alt="Sobre el lugar" class="img-fluid img-lugar">
+             </div>
+            <div class="col-12 col-md col-sm ">
+            
+                <h1 class="text-center text-sm-start d-flex justify-content-center align-item-center">¡Bienvenidos!</h1>
+                <p class="text-center text-sm-start" id="lugar"> <i> "Caminante, desvía la vista hacia tu interior para que puedas ver la grandeza de tu Gloria.
+                Ve la maravilla que está detrás de lo aparente; allí sabrás de esa 'Fuerza', de esa 'Presencia'. Así aprendes a ver, conocer, actuar, sentir, amar, estudiar y ser con el corazón. Es el camino increíblemente mágico el que realiza 'TU MÁGICA PRESENCIA'. "</i> <b>-Saint German.</b>
+                <br>
+                <br>
+                Soy Claudia y te propongo que conectes con tu interior por medio de distintas acciones, meditaciones, técnicas y la alquimia como transmutar nuestra energía.
+                Me acerqué a estos conocimientos desde la curiosidad, sabiendo que existieron desde siempre. Así, poco a poco, comencé a tomar contacto con personas que me guiaron en este camino de quienes somos y con qué potenciales contamos. También me dediqué a la lectura de múltiples libros.
+                Te propongo desentrañar juntos el camino de la vida, que te conozcas y aprendas a enfrentar el mundo actual y cambiante que puede provocar ansiedades, estrés, angustias e incertidumbres.
+                </p>
+            </div>
+        </div>
     </div>
      
-    <section class="servicios">
-        <div class="servicio-tarot">
-            <img src="./imagenes/imagen-tarot.png" alt="imagen tarot" class="tarot">
-            <h3 class="tarot">Tarot</h3>
-            <p class="tarot">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem distinctio nihil illum nam eos sunt odio dolores ea eius perferendis sequi quod, quos, molestiae ullam enim placeat quibusdam delectus?</p>
+      
+        <div class="container-fluid  container-servicios">
+            <div class="row" >
+                <div class="col-12 col-xl-6  mx-auto servicio-redes">
+                <img src="./imagenes/imagen-redes.png" alt="imagen redes" class="img-fluid imagen-redes">
+                <h3 class="redes">Redes Energéticas y Chakras</h3>
+                <p class="redes">Nuestro cuerpo tiene 52 puntos energéticos y cada uno de ellos pueden ser afectados. Te ayudamos a liberarlos y soltar lo que acumulamos y sanarlos</p>
+                <div class="btn-servicios">
+                <button><a href="redes.html" class="btn-boton-reserva">Ver más</a></button>
+                </div>
+                 </div>
+                      
+                      
+              
 
-            <button class="tarot">Ver más</button>
+                <div class="col-12 col-xl-6  mx-auto  servicio-numerologia">    
+                <img src="./imagenes/imagen-numerologia.png" alt="img-fluid imagen numerologia">
+                <h3 class="numerologia">Numerologia</h3>
+                <p>La numerología nos permite orientación, porque somos cómo somos y como nos relacionamos </p>            
+                <div class="btn-numerologia"><button><a href="numerologia.html" class="btn-boton-reserva">Ver más</a></button></div>
+                </div>
+    
+             <div class="col-12 col-xl-6  mx-auto servicio-pendulo">
+                <img src="./imagenes/image-pendulo.png" alt="img-fluid imagen pendulo">
+                <h3 class="pendulo">Péndulo hebreo</h3>
+                <p>Método de sanación y transformacion de la energía</p>
+                
+                <div class="btn-pendulo"><button><a href="pendulo.html" class="btn-boton-reserva">Ver más</a></button></div>
+                
+                </div>
+
+                <div class="col-12 col-xl-6  mx-auto servicio-armonizacion">
+                <img src="./imagenes/image-armonizacion.png" alt="img-fluid imagen armonizacion">
+                <h3 class="armonizacion">Armonización de ambientes</h3>
+                <p class="armonizacion">Tu casa suele reflejar la energía de la gente que entra en él y para eso hacemos que tu hogar sea un ambiente saludable con una limpieza energética</p> 
+                <div class="btn-servicios">
+                <button> <a href="armonizacion.html" class="btn-boton-reserva"></a>Ver más</button> </div>
+                
+                </div>
+               
         </div>
-
-        <div class="servicio-numerologia">    
-            <img src="./imagenes/imagen-numerologia.png" alt="imagen numerologia">
-            <h3>Numerologia</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem distinctio nihil illum nam eos sunt odio dolores ea eius perferendis sequi quod, quos, molestiae ullam enim placeat quibusdam delectus?</p>
-            <button>Ver más</button>
         </div>
     
-        <div class="servicio-pendulo">
-            <img src="./imagenes/image-pendulo.png" alt="imagen pendulo">
-            <h3>Péndulo hebreo</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem distinctio nihil illum nam eos sunt odio dolores ea eius perferendis sequi quod, quos, molestiae ullam enim placeat quibusdam delectus?</p>
-            <button>Ver más</button>
-        </div>
-    </section>
 
-   <div class="sesiones">
+   <div class=" sesiones">
+     
              
-        
-             <h1 id="titulo-sesiones">Sesiones</h1>
-                <p class="text-sm-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officia, autem molestias atque a tenetur nostrum id enim. Officiis vero at placeat rem recusandae et molestias sapiente harum esse aut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis reiciendis cupiditate veniam inventore error incidunt nesciunt, adipisci accusamus voluptatibus! Quasi nesciunt iste omnis ea praesentium laborum molestias quas inventore voluptas!</p>
+            <div  style="background-image: url('./imagenes/background.png'); height: 700px; width: 100vw;">
+              <div class="contenido-sesiones">
+             <h1  id="titulo-sesiones">Conectá con tu interior y transmuta tu energía </h1>
+                <p class="text-center  contenido-sesiones" >Encontrá acá todas las sesiones disponibles. También podes reservar ya tu día y horario. <br>¡Comenza a  desentrañar el camino de tu vida!
+                </p>
 
-        
-                <button class="btn-reserva" >Reservá tu sesión</button>
- 
+        <div class="btn-reserva">
+                <button >
+                    <a href="sesiones.html" class="btn-boton-reserva">Necesito mi sesion</a> 
+                </button>
+                </div>  
+            </div>
+        </div>
 
-        
+       
         
     </div>
 
-    <h2 class="titulo-productos">Productos</h2>
+    <!-- <h2 class="titulo-productos">Productos</h2>
     
     <div class="contenedor-productos">
         
@@ -111,85 +169,107 @@
     
     <div class="btn-productos">
         <button class="btn-productos">Ver más</button>
-    </div>
+    </div> --> 
 
+<h1 class=".container-fluid text-center contactame">Si tenés alguna duda, contactame</h1>
 
-    <section class="informacion">
-        <div class="telefono">
+<div class="container-fluid text-center contenedor-informacion">
+    <div class="row">
+          
+       <div class="col-12 col-md mx-auto "> 
+            <div class="telefono">
             <h2 id="informacion">Telefono/Whatsapp</h2>
-            <img src="imagenes/logo-whatsapp.png" alt="Telefono">
+            <img src="imagenes/logo-whatsapp.png" alt="Telefono" class="img-fluid">
             <h4>+549342496200</h4>
-        </div>    
+            </div>   
+        </div> 
         
+        <div class="col-12 col-md mx-auto">   
         <div class="instagram">
             <h2>Instagram</h2>
-            <img src="./imagenes/logo-insta.png" alt="Intagram">
+            <img src="./imagenes/logo-insta.png" alt="Intagram" class="img-fluid">
             <h4>@Elalmacendelalma</h4>
+            </div>
         </div>
-
-        <div class="mail">
+        <div class="col-12 col-md mx-auto"> 
+            <div class="mail">
             <h2>Mail</h2>
-            <img src="./imagenes/logo-mail.png" alt="mail">
+            <img src="./imagenes/logo-mail.png" alt="mail" class="img-fluid">
             <h4>elalmacendelalma@hotmail.com</h4>
+            </div>
         </div>
-    </section>
+   
+       
+    </div>
+</div>
+</main>
+
 
     <footer class="pie-pagina">
-        <div class="seccion-1">
-            <div class="logo">
-                <img src="./imagenes/logo-footer.svg" alt="logo footer" class="logo-footer">
-            </div>
+        <div class="container-fluid text-center text-md-start footer">
+           <div class="row text-center text-md-start seccion-1">
+              
+                <div class="col-md-3 col-lg-3 col-lx-3 mx-auto mt-3 logo">
+                    <img src="./imagenes/logo-footer.jpg" alt="logo footer" class="img-fluid logo-footer">
+                </div> 
         
-            <div class="sec-lugar">
-                <h6>   
-                            <a href="#lugar" >Sobre el Lugar</a>
+                <div class= "col-md-3 col-lg-3 col-lx-3 mx-auto mt-3 sec-lugar">
+                    <h6>   
+                            <a href="#lugar" >Sobre el Lugar</a><hr class="mb-4">
 
-                </h6>  
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-            </div>         
-            <div class="sec-sesiones">  
-               <h6> Sesiones  </h6>            
-               <ul>
+                    </h6>  
+                    <p class="lugar-footer">Te propongo desentrañar juntos el camino de la vida, que te conozcas y aprendas a enfrentar el mundo actual y cambiante que puede provocar ansiedades, estrés, angustias e incertidumbres. </p>
+                    
+                </div>   
+
+                <div class="col-md-3 col-lg-3 col-lx-3 mx-auto mt-3 sec-sesiones">  
+                 <h6> Sesiones  </h6>    <hr class="mb-4">        
+                    <ul>
                     <li>
-                    <a href="tarot.html">Tarot</a>
+                    <a href="redes.html">Redes</a>
                     </li>
                     <li>
                     <a href="numerologia.html">Numerologia</a>
                     </li>
                     <li>
                     <a href="pendulo.html">Pendulo hebreo</a>
-                </li>
-                </ul> 
-            </div>  
+                    </li>
+                    </ul> 
+                    
+                </div>  
                   
                        
-            <div class="sec-productos">
-                <h6>Llevate todo</h6>
-                <a href="productos.html">Productos</a>
-            </div>
+                <div class="col-md-3 col-lg-3 col-lx-3 mx-auto mt-3 sec-productos">
+                <h6>Llevate todo</h6><hr class="mb-4">
+                <a href="productos.html" class="info-productos">Productos</a>
+                
+                </div>
             
-            <div class="sec-informacion">
-                <h6>Contacto</h6>
-                   <div class="red-social">  
-                        
+              
+            </div>
+
+            <div class="container-fluid seccion-2">
+             <div>    
+                 <p class="copyright">© 2023 | Todos los derechos reservado a <b>El almacen del alma </b> </p>  
+            </div>   
+                        <div class="col-md-3 col-lg-3 col-lx-3 mx-auto mt-3 mb-4 sec-informacion">
+                
+                                          
                         <a href="#"><i class='bx bxl-whatsapp' ></i></a>
                         
                         <a href="#"><i class='bx bxl-instagram' ></i></a>
                         
                         <a href="#"><i class='bx bxl-gmail' ></i></a>
-                    </div>    
-               
-        </div>
+                        
+                       
+                        </div>  
+            
 
-          
+        </div> 
+    
             
  </footer> 
- <div class="seccion-2">
-    <div>    
-        <p class="copyright">© 2023 | Todos los derechos reservado a <b>El almacen del alma </b> </p>
-    </div> 
 
-</div> 
  
   
 
