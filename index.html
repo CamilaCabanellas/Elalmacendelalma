@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
         <title>El almacen del Alma</title>
@@ -90,10 +91,11 @@
         </div>
     </div>
      
-      
+    <div data-aos="fade-up" data-aos-duration="3000">
+
         <div class="container-fluid  container-servicios">
             <div class="row" >
-                <div class="col-12 col-xl-6  mx-auto servicio-redes">
+                <div class="col-12 col-xl-6  mx-auto servicio-redes" >
                 <img src="./imagenes/imagen-redes.png" alt="imagen redes" class="img-fluid imagen-redes">
                 <h3 class="redes">Redes Energéticas y Chakras</h3>
                 <p class="redes">Nuestro cuerpo tiene 52 puntos energéticos y cada uno de ellos pueden ser afectados. Te ayudamos a liberarlos y soltar lo que acumulamos y sanarlos</p>
@@ -105,14 +107,14 @@
                       
               
 
-                <div class="col-12 col-xl-6  mx-auto  servicio-numerologia">    
+                <div class="col-12 col-xl-6  mx-auto  servicio-numerologia" >    
                 <img src="./imagenes/imagen-numerologia.png" alt="img-fluid imagen numerologia">
                 <h3 class="numerologia">Numerologia</h3>
                 <p>La numerología nos permite orientación, porque somos cómo somos y como nos relacionamos </p>            
                 <div class="btn-numerologia"><button><a href="numerologia.html" class="btn-boton-reserva">Ver más</a></button></div>
                 </div>
     
-             <div class="col-12 col-xl-6  mx-auto servicio-pendulo">
+             <div class="col-12 col-xl-6  mx-auto servicio-pendulo" >
                 <img src="./imagenes/image-pendulo.png" alt="img-fluid imagen pendulo">
                 <h3 class="pendulo">Péndulo hebreo</h3>
                 <p>Método de sanación y transformacion de la energía</p>
@@ -121,7 +123,7 @@
                 
                 </div>
 
-                <div class="col-12 col-xl-6  mx-auto servicio-armonizacion">
+                <div class="col-12 col-xl-6  mx-auto servicio-armonizacion" >
                 <img src="./imagenes/image-armonizacion.png" alt="img-fluid imagen armonizacion">
                 <h3 class="armonizacion">Armonización de ambientes</h3>
                 <p class="armonizacion">Tu casa suele reflejar la energía de la gente que entra en él y para eso hacemos que tu hogar sea un ambiente saludable con una limpieza energética</p> 
@@ -132,8 +134,8 @@
                
         </div>
         </div>
-    
-
+    </div>
+  
    <div class=" sesiones">
      
              
@@ -155,26 +157,12 @@
         
     </div>
 
-    <!-- <h2 class="titulo-productos">Productos</h2>
-    
-    <div class="contenedor-productos">
-        
-        <img src="./imagenes/imagen-productos.png" alt="producto1">
-        <img src="./imagenes/imagen-productos.png" alt="producto2">
-        <img src="./imagenes/imagen-productos.png" alt="producto3">
-        <img src="./imagenes/imagen-productos.png" alt="producto4">
-        <img src="./imagenes/imagen-productos.png" alt="producto5">
-        <img src="./imagenes/imagen-productos.png" alt="producto6">
-        
-    </div>
-    
-    <div class="btn-productos">
-        <button class="btn-productos">Ver más</button>
-    </div> --> 
+  
 
 <h1 class=".container-fluid text-center contactame">Si tenés alguna duda, contactame</h1>
 
-<div class="container-fluid text-center contenedor-informacion">
+<div data-aos="fade-up" data-aos-duration="3000">
+<div class="container-fluid text-center contenedor-informacion" >
     <div class="row">
           
        <div class="col-12 col-md mx-auto "> 
@@ -202,6 +190,7 @@
    
        
     </div>
+</div>
 </div>
 </main>
 
@@ -276,5 +265,9 @@
 
 
 <script src="./js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

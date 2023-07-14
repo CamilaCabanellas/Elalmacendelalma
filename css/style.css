@@ -442,6 +442,24 @@ font-size: 0.75rem;
 
 /*Fin de Numerologia, redes, armonizacion, pendulo*/
 
+.titulos-paginas{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+
+} 
+
+.cuerpo-paginas{
+    text-align: center;
+    margin: 0 100px 100px 100px;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
 /*media queries*/
 
@@ -497,6 +515,11 @@ font-size: 0.75rem;
             color: #EDEBF0;
             
         
+        }
+
+        .cuerpo-paginas{
+            margin-left: 10px;
+            margin-right: 10px;
         }
 
     }
