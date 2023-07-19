@@ -1,0 +1,240 @@
+@import "variables";
+@import "reset";
+@font-face {
+    font-family: 'WindstoneSerif';
+    src: url(../fonts/windstone_serif/WindstoneSerif.otf);
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: $colorbackground;
+    margin-top: 100px;
+
+}
+.navbar{
+    background-color: $colorbackground;
+    ul li{
+    padding: 0px 40px 0px 40px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    color: $colorprincipal;
+    a {
+    text-decoration: none;
+    color: $colorhover;}}
+}
+.nav-informacion{
+    border-style: none !important;
+}
+.foto-header{
+    width: 100vw;
+}
+/*Fin header*/
+
+/*botones*/
+
+button{
+    font-size: $fontSizebotones;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background-color: $colorprincipal;
+    color: $colorbackground;
+    a {text-decoration: none;
+    color: $colorbackground;}
+    &:hover{
+    background-color: $colorhover;}  
+} 
+.btn-numerologia{
+        margin-top: 76px;
+       }
+.btn-pendulo{
+           margin-top: 100px;
+          }
+.btn-reserva{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+        }
+.btn-boton-reserva{
+            color: $colorbackground;
+        }
+        
+/*fin botones*/
+/*Titulos index General*/
+h1{
+    font-family: 'WindstoneSerif';
+}
+h3{
+    font-family: 'WindstoneSerif';
+}
+h4{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+/*INDEX*/
+.contenedor-sobrelugar{
+    display: grid;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    justify-items: center;
+h1{
+    margin-left: 0;
+    font-size: $fontSizeGrande;
+}
+}
+p#lugar1{
+    font-size: $fontSizeparrafos;
+    font-weight: lighter;
+    text-align: left;
+}
+.container-servicios{
+    .servicio-redes{
+    width: 290px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+} .servicio-numerologia{
+    width: 290px;
+    text-align: center;
+} .servicio-pendulo{
+    width: 290px;
+    text-align: center;
+}.servicio-armonizacion{
+    width: 290px;
+    text-align: center;
+}}
+h3, .redes, .pendulo, .numerologia, .armonizacion {
+    margin-top: 20px;
+}
+div.contenido-sesiones{
+    padding-top: 250px;    
+    font-size: $fontSizeMediana;
+    font-weight: lighter;
+    color: $colorbackground;
+}
+.sesiones{
+    margin-top: 200px;
+    width: 100vw;
+}
+#titulo-sesiones{
+        text-align: center;
+        color: $colorbackground;
+    }
+.contactame{
+        color: $colorbackground;
+        margin-top: 200px;
+        text-align: center;
+        background: rgb(158,139,185);
+        background: radial-gradient(circle, rgba(158,139,185,1) 0%, rgba(69,71,86,1) 100%);
+    }
+.contenedor-informacion{
+        margin-top: 200px;
+        margin-bottom: 200px;
+        justify-content: center;  
+        .telefono{text-align: center;
+        h2{ margin-bottom: 20px;
+        font-size: $fontSizeMediana ;
+        font-weight: 400;}
+        h4{ margin-top: 20px;
+        font-size: $fontSizechica;
+        font-weight: lighter;}}
+        .instagram{justify-content: center;
+        text-align: center;
+        h2{margin-bottom: 20px;
+        font-size: $fontSizeMediana;
+        font-weight: 400;}   
+        h4{margin-top: 20px;
+        font-size: $fontSizechica;
+        font-weight: lighter;}}
+        .mail{justify-content: center;
+        text-align: center;
+        h2{margin-bottom: 20px;
+        font-size: $fontSizeMediana;
+        font-weight: 400px;}
+        h4{margin-top: 20px;
+        font-size: $fontSizechica;
+        font-weight: lighter;
+    }}}
+/*Fin index*/
+/*Footer*/
+.pie-pagina{
+    width: 100%;
+    .footer{
+    margin: 0;
+    padding: 0;}
+    .sec-lugar{
+        a{text-decoration: none;
+        color: inherit;}}
+}
+.lugar-footer{
+   font-size: smaller;
+}
+.seccion-1 {
+    .logo img{
+    width: 250px;}
+    h6{
+    font-weight: 700;
+    font-size: smaller;}
+    ul{
+    padding-left: 0px;
+        li {
+         list-style: none;
+        font-size: smaller;}
+        a{ 
+        text-decoration: none;
+        color: inherit;}}
+}
+.sec-informacion a{
+   display: inline-block;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: $colorbackground;
+   background-color: $colorprincipal;
+   border-radius: 20px;
+   text-align: center;
+   margin-right: 10px;
+   &:hover{color: $colorhover;}
+}
+.seccion-2{
+width: 100%;
+padding: 15px 10px;
+text-align: center;
+background-color: $colorhover;
+color: $colorbackground;
+font-size: smaller;
+font-size: 0.75rem;
+}
+/*Fin footer*/
+/*Sesiones*/
+.sesiones-disponibles{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+.proximamente{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+.cards-grupo2{
+    margin-bottom: 200px;
+}
+/*fin de sesiones*/
+/*Numerologia, redes, armonizacion, pendulo*/
+.paginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+        h1 {text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;}
+        p { text-align: center;
+        margin: 0 100px 100px 100px;}
+}
+/*Fin de Numerologia, redes, armonizacion, pendulo*/
+@import "queries";

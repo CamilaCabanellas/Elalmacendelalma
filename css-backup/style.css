@@ -5,16 +5,19 @@
 }
 
 
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    
 }
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Quicksand', sans-serif;
     background-color: #EDEBF0;
-    
+    margin-top: 100px;
+
 
 
 }
@@ -28,17 +31,17 @@ body{
 a {
     text-decoration: none;
     color: #454756;
-    
-    
+
+
 }
 
 
 .navbar{
     background-color: #EDEBF0;
-    
-   
-    
-} 
+
+
+
+}
 
 .navbar ul li{
     padding: 0px 40px 0px 40px;
@@ -47,8 +50,8 @@ a {
     border-left: none;
     border-bottom: none;
     color: #9E8BB9;
-    
-    
+
+
 
 }
 
@@ -56,7 +59,10 @@ a {
 .nav-informacion{
     border-style: none !important;
 }
+.foto-header{
+    width: 100vw;
 
+}
 
 
 
@@ -65,14 +71,14 @@ a {
 /*Titulos index General*/
 h1{
     font-family: 'WindstoneSerif';
-    font-size: 72px;
-    
-    
+    font-size: 4.5rem;
+
+
 }
 h3{
     font-family: 'WindstoneSerif';
-    font-size: 24px;
-} 
+    font-size: 1.5rem;
+}
 
 h4{
     font-family: 'Inter', sans-serif;
@@ -82,26 +88,30 @@ h4{
 
 /*INDEX*/
 
- 
-.contenedor-sobrelugar{
+
+ .contenedor-sobrelugar{
     display: grid;
     margin-top: 120px;
     margin-bottom: 200px;
     justify-items: center;
 
 
+
 }
-    
+
+
 .contenedor-sobrelugar h1{
     margin-left: 0;
 }
 
-p#lugar{
-    font-size: 20px;
+p#lugar1{
+    font-size: 1.25rem;
     font-weight: lighter;
     text-align: left;
 
-}  
+}
+
+
 
 
 .servicio-redes{
@@ -109,28 +119,28 @@ p#lugar{
     text-align: center;
     justify-items: center;
     align-items: center;
-  
-} 
+
+}
 
 
 
 .servicio-numerologia{
     width: 290px;
-    text-align: center;    
-    
+    text-align: center;
+
 }
 .servicio-pendulo{
     width: 290px;
     text-align: center;
-    
-    
+
+
 }
 
 .servicio-armonizacion{
     width: 290px;
     text-align: center;
-    
-    
+
+
 }
 
 h3, .redes, .pendulo, .numerologia, .armonizacion {
@@ -140,7 +150,7 @@ h3, .redes, .pendulo, .numerologia, .armonizacion {
 .row {
     justify-content: space-between;
 
-} 
+}
 
 .btn-numerologia{
  margin-top: 76px;
@@ -153,23 +163,18 @@ h3, .redes, .pendulo, .numerologia, .armonizacion {
 
 
 
-.text-sm-center{
-    margin-top: 120px;
-    margin-right: 60px;
+div.contenido-sesiones{
+    padding-top: 250px;    
     font-size: 20px;
     font-weight: lighter;
     color: #EDEBF0;
-    justify-content: center;
     
+
 }
 .sesiones{
-    background-image: url('../imagenes/background.png');
     margin-top: 200px;
     width: 100vw;
-    height: 720px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     }
 
 .btn-reserva{
@@ -177,125 +182,100 @@ h3, .redes, .pendulo, .numerologia, .armonizacion {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
+.btn-boton-reserva{
+    color: antiquewhite;
+}
+
 #titulo-sesiones{
         text-align: center;
         color: #EDEBF0;
-        
+
 
     }
 
-    
-
-.titulo-productos{
-    font-family:'WindstoneSerif';
-    font-size: 42px; 
-    text-align: center;
-    margin-top: 200px;
-}
-.contenedor-productos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 80px;
-}
 
 
-
-div.btn-productos{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-}
 
 .contactame{
+    color: #EDEBF0;
     margin-top: 200px;
     text-align: center;
-    background-color: #9E8BB9;
+    background: rgb(158,139,185);
+    background: radial-gradient(circle, rgba(158,139,185,1) 0%, rgba(69,71,86,1) 100%);
 
 }
 
-.informacion {
-    padding: 100px 0 100px 0;
+
+
+.contenedor-informacion{
+    margin-top: 200px;
     margin-bottom: 200px;
-}
-
-section.informacion{
-    margin-top: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-    ;
+    justify-content: center;
 }
 
 .telefono{
-    width: 290px;
-    justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+
+
 }
 
 .telefono h2{
     margin-bottom: 20px;
-    font-size: 24px ;
+    font-size: 1.5rem ;
     font-weight: 400;
 }
 
 .telefono h4{
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 1.1rem;
     font-weight: lighter;
 }
 .instagram{
-    width: 290px;
     justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
+
     }
 
 .instagram h2{
         margin-bottom: 20px;
-        font-size: 24px ;
+        font-size: 1.5rem ;
         font-weight: 400;
 
 }
 .instagram h4{
-    margin-top: 20px;   
-    font-size: 19px;
+    margin-top: 20px;
+    font-size: 1.1rem;
     font-weight: lighter;
 
 }
 
 .mail{
-    width: 290px;
     justify-content: center;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+
+
 }
 
 .mail h2{
     margin-bottom: 20px;
-    font-size: 24px ;
+    font-size: 1.5rem ;
     font-weight: 400px;
 
 }
 
 .mail h4{
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 1.1rem;
     font-weight: lighter;
 
 }
 
 
 button{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -305,7 +285,7 @@ button{
     color: antiquewhite;
 
 
-    
+
 }
 button:hover{
     background-color: #454756;
@@ -313,57 +293,27 @@ button:hover{
 
 /*Fin index*/
 
-/*sesiones*/
-
-
-
-/*Productos*/
-.box{
-    display: inline-block;
-    margin: 60px 60px;
-}
-.precio{
-    font-family: 'Inter';
-
-}
-.producto-venta{
-    font-family: 'Inter';
-    font-weight: 400;
-}
-.boton-productos{
-    margin-left: 45%;
-    margin-bottom: 70px;
-}
-
-/*Fin productos*/
-
 /*footer*/
 
-.pie-pagina{
-    width: 100%;
-    
+
+ .pie-pagina{
+     width: 100%;
+
+
+}
+div.footer{
+    margin: 0;
+    padding: 0;
+
 }
 
 .lugar-footer{
     font-size: smaller;
 }
 
-.pie-pagina .seccion-1{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-gap: 50px;
-    padding: 45px 0px 0px;
-}
 
-.pie-pagina .seccion-1 .logo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 .pie-pagina .seccion-1 .logo img{
     width: 250px;
@@ -371,20 +321,28 @@ button:hover{
 }
 
 .pie-pagina .seccion-1 h6{
+
     font-weight: 700;
-    margin-bottom: 25px;
-    font-size: 15px;
+
+    font-size: smaller;
 }
+
 
 .pie-pagina .seccion-1 ul{
     padding-left: 0px;
+
 }
 
 .pie-pagina .seccion-1 ul li {
     list-style: none;
+    font-size: smaller;
 }
 
-.red-social a{
+.info-productos{
+    font-size: smaller;
+}
+
+.sec-informacion a{
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -397,19 +355,19 @@ button:hover{
 
 
 }
-.red-social a:hover{
+.sec-informacion a:hover{
     color: #454756;
 
 }
 
 .seccion-2{
+width: 100%;
 padding: 15px 10px;
 text-align: center;
 background-color: #454756;
 color: #EDEBF0;
 font-size: smaller;
-grid-column: 1/6;
-font-size: 12px;
+font-size: 0.75rem;
 }
 
 
@@ -417,19 +375,64 @@ font-size: 12px;
 /*footer*/
 
 
+/*Sesiones*/
 
+.sesiones-disponibles{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+
+.proximamente{
+    margin: 200px 0 100px 0;
+    text-align: center;
+}
+
+.cards-grupo2{
+    margin-bottom: 200px;
+}
+
+/*fin de sesiones*/
+
+/*Numerologia, redes, armonizacion, pendulo*/
+
+.titulos-paginas{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+
+} 
+
+.cuerpo-paginas{
+    text-align: center;
+    margin: 0 100px 100px 100px;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/*Fin de Numerologia, redes, armonizacion, pendulo*/
 /*media queries*/
 
     @media screen and (max-width: 1300px){
        body{
         margin-top: 5rem;
-       }  
+       }
+    }
+
+    @media screen and (max-width: 1024px){
+        .servicio-numerologia{
+            margin-bottom: 5rem;
+        }
+
     }
 
     @media screen and (max-width: 768px){
         .btn-numerologia, .btn-pendulo{
             margin-top: 0;
-        } 
+        }
 
         .servicio-redes{
             margin-bottom: 5rem;
@@ -444,6 +447,34 @@ font-size: 12px;
         .servicio-armonizacion{
             margin-bottom: 5rem;
         }
+
+        div.contenido-sesiones{
+            padding-top: 200px;    
+            font-size: 20px;
+            font-weight: lighter;
+            color: #EDEBF0;
+            
+        
+        }
+
+
+    }
+
+    @media screen and (max-width: 425px){
+        div.contenido-sesiones{
+            padding-top: 50px;    
+            font-size: 20px;
+            font-weight: lighter;
+            color: #EDEBF0;
+            
+        
+        }
+
+        .cuerpo-paginas{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
     }
 
 

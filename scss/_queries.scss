@@ -1,0 +1,48 @@
+@media screen and (max-width: 1300px){
+    body{
+     margin-top: 5rem;
+    }
+ }
+@media screen and (max-width: 1024px){
+     .servicio-numerologia{
+         margin-bottom: 5rem;
+     }
+}
+@media screen and (max-width: 768px){
+     .btn-numerologia, .btn-pendulo{
+         margin-top: 0;
+     }
+     .servicio-redes{
+         margin-bottom: 5rem;
+     }
+     .servicio-numerologia{
+         margin-bottom: 5rem;
+     }
+     .servicio-pendulo{
+         margin-bottom: 5rem;
+     }
+     .servicio-armonizacion{
+         margin-bottom: 5rem;
+     }
+     div.contenido-sesiones{
+         padding-top: 200px;    
+         font-size: 20px;
+         font-weight: lighter;
+         color: #EDEBF0;
+    }
+    p.cuerpo-paginas{
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+}
+@media screen and (max-width: 425px){
+     div.contenido-sesiones{
+         padding-top: 50px;    
+         font-size: 20px;
+         font-weight: lighter;
+         color: #EDEBF0;
+        }
+     
+}
+
+

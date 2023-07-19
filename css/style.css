@@ -1,535 +1,355 @@
+@charset "UTF-8";
+/*tamaños*/
+/*colores*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 @font-face {
-    font-family: 'WindstoneSerif';
-    src: url(../fonts/windstone_serif/WindstoneSerif.otf);
+  font-family: "WindstoneSerif";
+  src: url(../fonts/windstone_serif/WindstoneSerif.otf);
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  background-color: #EDEBF0;
+  margin-top: 100px;
 }
 
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+.navbar {
+  background-color: #EDEBF0;
 }
-body{
-    font-family: 'Inter', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #EDEBF0;
-    margin-top: 100px;
-
-
-
+.navbar ul li {
+  padding: 0px 40px 0px 40px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  color: #9E8BB9;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #454756;
 }
 
-
-
-/*Header*/
-
-
-
-a {
-    text-decoration: none;
-    color: #454756;
-
-
+.nav-informacion {
+  border-style: none !important;
 }
 
-
-.navbar{
-    background-color: #EDEBF0;
-
-
-
+.foto-header {
+  width: 100vw;
 }
-
-.navbar ul li{
-    padding: 0px 40px 0px 40px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    color: #9E8BB9;
-
-
-
-}
-
-
-.nav-informacion{
-    border-style: none !important;
-}
-.foto-header{
-    width: 100vw;
-
-}
-
-
 
 /*Fin header*/
+/*botones*/
+button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  background-color: #9E8BB9;
+  color: #EDEBF0;
+}
+button a {
+  text-decoration: none;
+  color: #EDEBF0;
+}
+button:hover {
+  background-color: #454756;
+}
 
+.btn-numerologia {
+  margin-top: 76px;
+}
+
+.btn-pendulo {
+  margin-top: 100px;
+}
+
+.btn-reserva {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-boton-reserva {
+  color: #EDEBF0;
+}
+
+/*fin botones*/
 /*Titulos index General*/
-h1{
-    font-family: 'WindstoneSerif';
-    font-size: 4.5rem;
-
-
-}
-h3{
-    font-family: 'WindstoneSerif';
-    font-size: 1.5rem;
+h1 {
+  font-family: "WindstoneSerif";
 }
 
-h4{
-    font-family: 'Inter', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+h3 {
+  font-family: "WindstoneSerif";
 }
 
+h4 {
+  font-family: "Inter", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
 
 /*INDEX*/
-
-
- .contenedor-sobrelugar{
-    display: grid;
-    margin-top: 120px;
-    margin-bottom: 200px;
-    justify-items: center;
-
-
-
+.contenedor-sobrelugar {
+  display: grid;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  justify-items: center;
+}
+.contenedor-sobrelugar h1 {
+  margin-left: 0;
+  font-size: 4.5rem;
 }
 
-
-.contenedor-sobrelugar h1{
-    margin-left: 0;
+p#lugar1 {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  text-align: left;
 }
 
-p#lugar1{
-    font-size: 1.25rem;
-    font-weight: lighter;
-    text-align: left;
-
+.container-servicios .servicio-redes {
+  width: 290px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
-
-
-
-
-.servicio-redes{
-    width: 290px;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-
+.container-servicios .servicio-numerologia {
+  width: 290px;
+  text-align: center;
 }
-
-
-
-.servicio-numerologia{
-    width: 290px;
-    text-align: center;
-
+.container-servicios .servicio-pendulo {
+  width: 290px;
+  text-align: center;
 }
-.servicio-pendulo{
-    width: 290px;
-    text-align: center;
-
-
-}
-
-.servicio-armonizacion{
-    width: 290px;
-    text-align: center;
-
-
+.container-servicios .servicio-armonizacion {
+  width: 290px;
+  text-align: center;
 }
 
 h3, .redes, .pendulo, .numerologia, .armonizacion {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.row {
-    justify-content: space-between;
-
+div.contenido-sesiones {
+  padding-top: 250px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #EDEBF0;
 }
 
-.btn-numerologia{
- margin-top: 76px;
-}
-.btn-pendulo{
-    margin-top: 100px;
-   }
-
-
-
-
-
-div.contenido-sesiones{
-    padding-top: 250px;    
-    font-size: 20px;
-    font-weight: lighter;
-    color: #EDEBF0;
-    
-
-}
-.sesiones{
-    margin-top: 200px;
-    width: 100vw;
-    
-    }
-
-.btn-reserva{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
-}
-.btn-boton-reserva{
-    color: antiquewhite;
+.sesiones {
+  margin-top: 200px;
+  width: 100vw;
 }
 
-#titulo-sesiones{
-        text-align: center;
-        color: #EDEBF0;
-
-
-    }
-
-
-
-.titulo-productos{
-    font-family:'WindstoneSerif';
-    font-size: 2.6rem;
-    text-align: center;
-    margin-top: 200px;
-}
-.contenedor-productos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 80px;
+#titulo-sesiones {
+  text-align: center;
+  color: #EDEBF0;
 }
 
-
-
-div.btn-productos{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+.contactame {
+  color: #EDEBF0;
+  margin-top: 200px;
+  text-align: center;
+  background: rgb(158, 139, 185);
+  background: radial-gradient(circle, rgb(158, 139, 185) 0%, rgb(69, 71, 86) 100%);
 }
 
-.contactame{
-    color: #EDEBF0;
-    margin-top: 200px;
-    text-align: center;
-    background: rgb(158,139,185);
-    background: radial-gradient(circle, rgba(158,139,185,1) 0%, rgba(69,71,86,1) 100%);
-
+.contenedor-informacion {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  justify-content: center;
 }
-
-
-
-.contenedor-informacion{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    justify-content: center;
+.contenedor-informacion .telefono {
+  text-align: center;
 }
-
-.telefono{
-    text-align: center;
-
-
+.contenedor-informacion .telefono h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-
-.telefono h2{
-    margin-bottom: 20px;
-    font-size: 1.5rem ;
-    font-weight: 400;
+.contenedor-informacion .telefono h4 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: lighter;
 }
-
-.telefono h4{
-    margin-top: 20px;
-    font-size: 1.1rem;
-    font-weight: lighter;
+.contenedor-informacion .instagram {
+  justify-content: center;
+  text-align: center;
 }
-.instagram{
-    justify-content: center;
-    text-align: center;
-
-    }
-
-.instagram h2{
-        margin-bottom: 20px;
-        font-size: 1.5rem ;
-        font-weight: 400;
-
+.contenedor-informacion .instagram h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.instagram h4{
-    margin-top: 20px;
-    font-size: 1.1rem;
-    font-weight: lighter;
-
+.contenedor-informacion .instagram h4 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: lighter;
 }
-
-.mail{
-    justify-content: center;
-    text-align: center;
-
-
+.contenedor-informacion .mail {
+  justify-content: center;
+  text-align: center;
 }
-
-.mail h2{
-    margin-bottom: 20px;
-    font-size: 1.5rem ;
-    font-weight: 400px;
-
+.contenedor-informacion .mail h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 400px;
 }
-
-.mail h4{
-    margin-top: 20px;
-    font-size: 1.1rem;
-    font-weight: lighter;
-
-}
-
-
-button{
-    font-size: 0.9rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    padding: 8px 16px 8px 16px;
-    border-radius: 4px;
-    background-color: #9E8BB9;
-    color: antiquewhite;
-
-
-
-}
-button:hover{
-    background-color: #454756;
+.contenedor-informacion .mail h4 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: lighter;
 }
 
 /*Fin index*/
-
-/*sesiones*/
-
-
-
-/*Productos*/
-.box{
-    display: inline-block;
-    margin: 60px 60px;
+/*Footer*/
+.pie-pagina {
+  width: 100%;
 }
-.precio{
-    font-family: 'Inter';
-
+.pie-pagina .footer {
+  margin: 0;
+  padding: 0;
 }
-.producto-venta{
-    font-family: 'Inter';
-    font-weight: 400;
-}
-.boton-productos{
-    margin-left: 45%;
-    margin-bottom: 70px;
+.pie-pagina .sec-lugar a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/*Fin productos*/
-
-/*footer*/
-
-
- .pie-pagina{
-     width: 100%;
-
-
-}
-div.footer{
-    margin: 0;
-    padding: 0;
-
+.lugar-footer {
+  font-size: smaller;
 }
 
-.lugar-footer{
-    font-size: smaller;
+.seccion-1 .logo img {
+  width: 250px;
+}
+.seccion-1 h6 {
+  font-weight: 700;
+  font-size: smaller;
+}
+.seccion-1 ul {
+  padding-left: 0px;
+}
+.seccion-1 ul li {
+  list-style: none;
+  font-size: smaller;
+}
+.seccion-1 ul a {
+  text-decoration: none;
+  color: inherit;
 }
 
-
-
-
-
-.pie-pagina .seccion-1 .logo img{
-    width: 250px;
-
+.sec-informacion a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #EDEBF0;
+  background-color: #9E8BB9;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+.sec-informacion a:hover {
+  color: #454756;
 }
 
-.pie-pagina .seccion-1 h6{
-
-    font-weight: 700;
-
-    font-size: smaller;
+.seccion-2 {
+  width: 100%;
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #454756;
+  color: #EDEBF0;
+  font-size: smaller;
+  font-size: 0.75rem;
 }
 
-
-.pie-pagina .seccion-1 ul{
-    padding-left: 0px;
-
-}
-
-.pie-pagina .seccion-1 ul li {
-    list-style: none;
-    font-size: smaller;
-}
-
-.info-productos{
-    font-size: smaller;
-}
-
-.sec-informacion a{
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #EDEBF0;
-    background-color: #9E8BB9;
-    border-radius: 20px;
-    text-align: center;
-    margin-right: 10px;
-
-
-}
-.sec-informacion a:hover{
-    color: #454756;
-
-}
-
-.seccion-2{
-width: 100%;
-padding: 15px 10px;
-text-align: center;
-background-color: #454756;
-color: #EDEBF0;
-font-size: smaller;
-font-size: 0.75rem;
-}
-
-
-
-/*footer*/
-
-
+/*Fin footer*/
 /*Sesiones*/
-
-.sesiones-disponibles{
-    margin: 200px 0 100px 0;
-    text-align: center;
+.sesiones-disponibles {
+  margin: 200px 0 100px 0;
+  text-align: center;
 }
 
-.proximamente{
-    margin: 200px 0 100px 0;
-    text-align: center;
+.proximamente {
+  margin: 200px 0 100px 0;
+  text-align: center;
 }
 
-.cards-grupo2{
-    margin-bottom: 200px;
+.cards-grupo2 {
+  margin-bottom: 200px;
 }
 
 /*fin de sesiones*/
-
 /*Numerologia, redes, armonizacion, pendulo*/
-
+.paginas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.paginas h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.paginas p {
+  text-align: center;
+  margin: 0 100px 100px 100px;
+}
 
 /*Fin de Numerologia, redes, armonizacion, pendulo*/
-
-.titulos-paginas{
-text-align: center;
-margin-top: 100px;
-margin-bottom: 100px;
-
-} 
-
-.cuerpo-paginas{
-    text-align: center;
-    margin: 0 100px 100px 100px;
+@media screen and (max-width: 1300px) {
+  body {
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .servicio-numerologia {
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn-numerologia, .btn-pendulo {
+    margin-top: 0;
+  }
+  .servicio-redes {
+    margin-bottom: 5rem;
+  }
+  .servicio-numerologia {
+    margin-bottom: 5rem;
+  }
+  .servicio-pendulo {
+    margin-bottom: 5rem;
+  }
+  .servicio-armonizacion {
+    margin-bottom: 5rem;
+  }
+  div.contenido-sesiones {
+    padding-top: 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #EDEBF0;
+  }
+  p.cuerpo-paginas {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  div.contenido-sesiones {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #EDEBF0;
+  }
 }
 
-.paginas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-/*media queries*/
-
-    @media screen and (max-width: 1300px){
-       body{
-        margin-top: 5rem;
-       }
-    }
-
-    @media screen and (max-width: 1024px){
-        .servicio-numerologia{
-            margin-bottom: 5rem;
-        }
-
-    }
-
-    @media screen and (max-width: 768px){
-        .btn-numerologia, .btn-pendulo{
-            margin-top: 0;
-        }
-
-        .servicio-redes{
-            margin-bottom: 5rem;
-        }
-
-        .servicio-numerologia{
-            margin-bottom: 5rem;
-        }
-        .servicio-pendulo{
-            margin-bottom: 5rem;
-        }
-        .servicio-armonizacion{
-            margin-bottom: 5rem;
-        }
-
-        div.contenido-sesiones{
-            padding-top: 200px;    
-            font-size: 20px;
-            font-weight: lighter;
-            color: #EDEBF0;
-            
-        
-        }
-
-
-    }
-
-    @media screen and (max-width: 425px){
-        div.contenido-sesiones{
-            padding-top: 50px;    
-            font-size: 20px;
-            font-weight: lighter;
-            color: #EDEBF0;
-            
-        
-        }
-
-        .cuerpo-paginas{
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-    }
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */
