@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/*botones*/
 @font-face {
   font-family: "WindstoneSerif";
   src: url(../fonts/windstone_serif/WindstoneSerif.otf);
@@ -31,7 +32,10 @@ body {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: #454756;
+}
+
+.navbar-toggler {
+  color: #9E8BB9;
 }
 
 .nav-informacion {
@@ -63,22 +67,53 @@ button:hover {
 }
 
 .btn-numerologia {
-  margin-top: 76px;
+  margin-top: 95px;
 }
 
 .btn-pendulo {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .btn-reserva {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  background-color: #9E8BB9;
+  color: #EDEBF0;
+  margin-top: 60px;
+}
+.btn-reserva a {
+  text-decoration: none;
+  color: #EDEBF0;
+}
+.btn-reserva:hover {
+  background-color: #454756;
 }
 
 .btn-boton-reserva {
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  background-color: #9E8BB9;
   color: #EDEBF0;
+  color: #EDEBF0;
+}
+.btn-boton-reserva a {
+  text-decoration: none;
+  color: #EDEBF0;
+}
+.btn-boton-reserva:hover {
+  background-color: #454756;
+}
+
+.btn-1, .btn-3 {
+  margin-top: 10px;
 }
 
 /*fin botones*/
@@ -138,7 +173,7 @@ h3, .redes, .pendulo, .numerologia, .armonizacion {
 }
 
 div.contenido-sesiones {
-  padding-top: 250px;
+  padding-top: 100px;
   font-size: 1.5rem;
   font-weight: lighter;
   color: #EDEBF0;
@@ -147,6 +182,10 @@ div.contenido-sesiones {
 .sesiones {
   margin-top: 200px;
   width: 100vw;
+}
+.sesiones .sesiones-btn {
+  display: flex;
+  justify-content: center;
 }
 
 #titulo-sesiones {
@@ -315,6 +354,12 @@ div.contenido-sesiones {
   .servicio-numerologia {
     margin-bottom: 5rem;
   }
+  .btn-1, .btn-3 {
+    margin-top: 20px;
+  }
+  .sesiones-disponibles, .proximamente {
+    margin: 120px 0 60px 0;
+  }
 }
 @media screen and (max-width: 768px) {
   .btn-numerologia, .btn-pendulo {
@@ -349,6 +394,47 @@ div.contenido-sesiones {
     font-size: 20px;
     font-weight: lighter;
     color: #EDEBF0;
+  }
+  .img-lugar {
+    height: 300px;
+  }
+  .contenedor-sobrelugar {
+    margin-top: 20px;
+  }
+  .sesiones-disponibles, .proximamente {
+    margin: 120px 0 60px 0;
+  }
+}
+@media (max-width: 768px) {
+  .btn-servicios,
+  .boton-sesiones,
+  .button-principal,
+  .btn-numerologia,
+  .btn-pendulo,
+  .btn-boton-reserva {
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+  }
+  .btn-numerologia,
+  .btn-pendulo {
+    margin-top: 100px;
+  }
+  .btn-reserva,
+  .btn-boton-reserva {
+    padding: 10px 20px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .img-lugar {
+    height: 300px;
+  }
+  .btn-1, .btn-3 {
+    margin-top: 40px;
+  }
+  .sesiones-disponibles, .proximamente {
+    margin: 120px 0 60px 0;
   }
 }
 

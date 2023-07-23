@@ -1,5 +1,6 @@
 @import "variables";
 @import "reset";
+@import "mixins";
 @font-face {
     font-family: 'WindstoneSerif';
     src: url(../fonts/windstone_serif/WindstoneSerif.otf);
@@ -21,8 +22,10 @@ body{
     border-bottom: none;
     color: $colorprincipal;
     a {
-    text-decoration: none;
-    color: $colorhover;}}
+    text-decoration: none;}}
+   } 
+.navbar-toggler{
+    color: $colorprincipal;
 }
 .nav-informacion{
     border-style: none !important;
@@ -33,37 +36,26 @@ body{
 /*Fin header*/
 
 /*botones*/
-
 button{
-    font-size: $fontSizebotones;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    padding: 8px 16px 8px 16px;
-    border-radius: 4px;
-    background-color: $colorprincipal;
-    color: $colorbackground;
-    a {text-decoration: none;
-    color: $colorbackground;}
-    &:hover{
-    background-color: $colorhover;}  
+@include estilos-comunes;
 } 
 .btn-numerologia{
-        margin-top: 76px;
-       }
+    margin-top: 95px;
+}
 .btn-pendulo{
-           margin-top: 100px;
-          }
+    margin-top: 120px;
+}
 .btn-reserva{
-            margin-top: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;   
-        }
+    @include estilos-comunes;
+    margin-top: 60px; 
+}
 .btn-boton-reserva{
-            color: $colorbackground;
-        }
-        
+    @include estilos-comunes;
+    color: $colorbackground;
+}
+.btn-1, .btn-3{
+    margin-top: 10px;
+}
 /*fin botones*/
 /*Titulos index General*/
 h1{
@@ -112,7 +104,7 @@ h3, .redes, .pendulo, .numerologia, .armonizacion {
     margin-top: 20px;
 }
 div.contenido-sesiones{
-    padding-top: 250px;    
+    padding-top: 100px;    
     font-size: $fontSizeMediana;
     font-weight: lighter;
     color: $colorbackground;
@@ -120,6 +112,10 @@ div.contenido-sesiones{
 .sesiones{
     margin-top: 200px;
     width: 100vw;
+    .sesiones-btn{
+    display: flex;
+    justify-content: center;
+    }
 }
 #titulo-sesiones{
         text-align: center;
@@ -216,6 +212,7 @@ font-size: 0.75rem;
     margin: 200px 0 100px 0;
     text-align: center;
 }
+
 .proximamente{
     margin: 200px 0 100px 0;
     text-align: center;

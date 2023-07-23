@@ -7,6 +7,13 @@
      .servicio-numerologia{
          margin-bottom: 5rem;
      }
+     .btn-1, .btn-3{
+        margin-top: 20px;
+    }
+    .sesiones-disponibles, .proximamente{
+        margin: 120px 0 60px 0;
+    
+       }
 }
 @media screen and (max-width: 768px){
      .btn-numerologia, .btn-pendulo{
@@ -42,7 +49,52 @@
          font-weight: lighter;
          color: #EDEBF0;
         }
-     
+    .img-lugar{
+        height: 300px;
+    }
+   .contenedor-sobrelugar{
+    margin-top: 20px;
+   }
+   .sesiones-disponibles, .proximamente{
+    margin: 120px 0 60px 0;
+
+   }
 }
+@media (max-width: 768px) {
+    .btn-servicios,
+    .boton-sesiones,
+    .button-principal,
+    .btn-numerologia,
+    .btn-pendulo,
+    .btn-boton-reserva {
+        padding: 10px 20px;
+        width: 100%;
+        display: block;}
+    .btn-numerologia,
+    .btn-pendulo{
+        margin-top: 100px;
+    }
+    .btn-reserva,
+    .btn-boton-reserva {
+    padding: 10px 20px;
+    display: block;
+    width:70%;
+    margin: 0 auto;
+    }
+    .img-lugar{
+        height: 300px;
+    }
+    .btn-1, .btn-3{
+        margin-top: 40px;
+    }
+    .sesiones-disponibles, .proximamente{
+        margin: 120px 0 60px 0;
+    
+       }
+  }
+
+
+     
+
 
 
