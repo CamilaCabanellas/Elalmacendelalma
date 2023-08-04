@@ -14,15 +14,12 @@ body{
 }
 .navbar{
     background-color: $colorbackground;
-    ul li{
-    padding: 0px 40px 0px 40px;
-    border-style: solid;
+    ul li{border-style: solid;
     border-top: none;
     border-left: none;
     border-bottom: none;
     color: $colorprincipal;
-    a {
-    text-decoration: none;}}
+    a {text-decoration: none;}}
    } 
 .navbar-toggler{
     color: $colorprincipal;
